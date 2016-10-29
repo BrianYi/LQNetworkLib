@@ -30,6 +30,9 @@
     <ClInclude Include="constdef.h">
       <Filter>CommonFiles</Filter>
     </ClInclude>
+    <ClInclude Include="..\CommonFiles\LQMutexLocker.h">
+      <Filter>CommonFiles</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -37,6 +40,9 @@
     </ClCompile>
     <ClCompile Include="LQNetworkLib.cpp">
       <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CommonFiles\LQMutexLocker.cpp">
+      <Filter>CommonFiles</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

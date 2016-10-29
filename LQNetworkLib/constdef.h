@@ -3,6 +3,13 @@
 #include <string>
 using namespace std;
 
+/* printf or scanf 中的参数 */
+#define _S32_ "ld"
+#define _U32_ "lu"
+#define _S64_ "I64d"
+#define _U64_ "I64u"
+
+
 /* 类型定义 */
 typedef unsigned char		UInt8;
 typedef signed char			SInt8;

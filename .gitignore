@@ -45,3 +45,4 @@ ui_*.h
 *.txt
 *.opensdf
 *.log
+bin
