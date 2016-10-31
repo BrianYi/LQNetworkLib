@@ -45,4 +45,5 @@ ui_*.h
 *.txt
 *.opensdf
 *.log
+*.VC.opendb
 bin

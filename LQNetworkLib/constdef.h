@@ -4,10 +4,10 @@
 using namespace std;
 
 /* printf or scanf 中的参数 */
-#define _S32_ "ld"
-#define _U32_ "lu"
-#define _S64_ "I64d"
-#define _U64_ "I64u"
+#define _S32_ "%ld"
+#define _U32_ "%lu"
+#define _S64_ "%I64d"
+#define _U64_ "%I64u"
 
 
 /* 类型定义 */
@@ -29,8 +29,8 @@ typedef unsigned int Port;
 typedef int SocketID;
 
 /* 枚举定义 */
-enum IOType
+enum LQ_IOType
 {
-	BLOCKING = 1,	// 阻塞
-	NOBLOCKING		// 非阻塞
+	lqIOTypeBlocking = 1,	// 阻塞
+	lqIOTypeNoBlocking	// 非阻塞
 };
