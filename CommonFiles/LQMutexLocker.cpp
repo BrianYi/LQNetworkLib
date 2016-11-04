@@ -15,16 +15,40 @@ LQMutexLocker::~LQMutexLocker()
 	::DeleteCriticalSection(&m_mutex);
 }
 
+//************************************
+// 函数名:	Lock
+// 描述:		锁
+// 返回值:	void
+// 日期:		2016/10/31
+// 作者:		YJZ
+// 修改记录:	
+//************************************
 void LQMutexLocker::Lock()
 {
 	this->RecursiveLock();
 }
 
+//************************************
+// 函数名:	Unlock
+// 描述:		解锁
+// 返回值:	void
+// 日期:		2016/10/31
+// 作者:		YJZ
+// 修改记录:	
+//************************************
 void LQMutexLocker::Unlock()
 {
 	this->RecursiveUnlock();
 }
 
+//************************************
+// 函数名:	RecursiveLock
+// 描述:		迭代锁
+// 返回值:	void
+// 日期:		2016/10/31
+// 作者:		YJZ
+// 修改记录:	
+//************************************
 void LQMutexLocker::RecursiveLock()
 {
 	if (::GetCurrentThreadId() == m_holder)
@@ -43,6 +67,14 @@ void LQMutexLocker::RecursiveLock()
 	m_holderCount++;
 }
 
+//************************************
+// 函数名:	RecursiveUnlock
+// 描述:		迭代解锁
+// 返回值:	void
+// 日期:		2016/10/31
+// 作者:		YJZ
+// 修改记录:	
+//************************************
 void LQMutexLocker::RecursiveUnlock()
 {
 	if (::GetCurrentThreadId() != m_holder)

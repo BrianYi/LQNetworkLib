@@ -11,6 +11,7 @@ using namespace std;
 
 
 /* 类型定义 */
+#ifdef WIN32
 typedef unsigned char		UInt8;
 typedef signed char			SInt8;
 typedef unsigned short		UInt16;
@@ -23,6 +24,7 @@ typedef float				Float32;
 typedef double				Float64;
 typedef UInt8				Bool8;
 typedef UInt16				Bool16;
+#endif
 
 typedef string IP;
 typedef unsigned int Port;
