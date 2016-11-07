@@ -38,11 +38,11 @@
     <ClCompile Include="stdafx.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="LQNetworkLib.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="..\CommonFiles\LQMutexLocker.cpp">
       <Filter>CommonFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="LQNetworkLib.cpp">
+      <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
