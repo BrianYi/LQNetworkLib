@@ -13,7 +13,7 @@
  * \author YJZ
  * \date 2016/10/29
  */
-class LQMutexLocker
+class LQ_DECL_EXPORT LQMutexLocker
 {
 public:
 	LQMutexLocker();

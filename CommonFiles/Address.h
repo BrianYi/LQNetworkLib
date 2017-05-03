@@ -2,7 +2,7 @@
 #include "common.h"
 #include <string>
 
-class Address : public sockaddr_in
+class LQ_DECL_EXPORT Address : public sockaddr_in
 {
 public:
     Address();

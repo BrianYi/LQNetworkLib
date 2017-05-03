@@ -8,7 +8,7 @@
 #pragma once
 #include "CommonSocket.h"
 
-class TCP :
+class LQ_DECL_EXPORT TCP :
 	public CommonSocket
 {
 public:

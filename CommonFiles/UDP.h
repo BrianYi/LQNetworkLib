@@ -7,7 +7,8 @@
 *********************************************************************/
 #pragma once
 #include "CommonSocket.h"
-class UDP :
+
+class LQ_DECL_EXPORT UDP :
     public CommonSocket
 {
 public:

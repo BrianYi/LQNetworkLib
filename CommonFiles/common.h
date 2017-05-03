@@ -8,10 +8,11 @@
 #pragma once
 
 #include <winsock2.h>
-/*#include <intsafe.h>*/
 #include <iostream>
 #include <string>
 using namespace std;
+
+#pragma comment(lib, "ws2_32.lib")
 
 /* printf or scanf 中的参数 */
 #define _S32_ "%ld"
@@ -34,6 +35,11 @@ typedef double				Float64;
 typedef UInt8				Bool8;
 typedef UInt16				Bool16;
 #endif
+
+
+#define LQ_DECL_EXPORT  __declspec(dllexport)
+#define LQ_DECL_IMPORT  __declspec(dllimport)
+
 
 typedef string IP;
 typedef unsigned int Port;

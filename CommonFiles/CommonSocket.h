@@ -9,7 +9,7 @@
 #include "common.h"
 #include "Address.h"
 
-class CommonSocket
+class LQ_DECL_EXPORT CommonSocket
 {
 public:
     CommonSocket(SInt32 inSocketType, SInt32 inProtocol, IOType inIOType = Blocking);
