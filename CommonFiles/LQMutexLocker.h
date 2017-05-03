@@ -1,6 +1,5 @@
 #pragma once
-#include <windows.h>
-#include "constdef.h"
+#include "common.h"
 
 //#define DEBUG_LQMutexLocker
 

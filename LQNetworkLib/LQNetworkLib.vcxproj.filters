@@ -21,36 +21,43 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="stdafx.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="targetver.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="constdef.h">
-      <Filter>CommonFiles</Filter>
-    </ClInclude>
     <ClInclude Include="..\CommonFiles\LQMutexLocker.h">
       <Filter>CommonFiles</Filter>
     </ClInclude>
-    <ClInclude Include="resource.h">
-      <Filter>头文件</Filter>
+    <ClInclude Include="..\CommonFiles\Address.h">
+      <Filter>CommonFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CommonFiles\common.h">
+      <Filter>CommonFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CommonFiles\CommonSocket.h">
+      <Filter>CommonFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CommonFiles\TCP.h">
+      <Filter>CommonFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CommonFiles\UDP.h">
+      <Filter>CommonFiles</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="stdafx.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="..\CommonFiles\LQMutexLocker.cpp">
       <Filter>CommonFiles</Filter>
     </ClCompile>
     <ClCompile Include="LQNetworkLib.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <ResourceCompile Include="Resource.rc">
-      <Filter>资源文件</Filter>
-    </ResourceCompile>
+    <ClCompile Include="..\CommonFiles\Address.cpp">
+      <Filter>CommonFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CommonFiles\CommonSocket.cpp">
+      <Filter>CommonFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CommonFiles\TCP.cpp">
+      <Filter>CommonFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CommonFiles\UDP.cpp">
+      <Filter>CommonFiles</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

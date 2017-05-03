@@ -1,6 +1,6 @@
-#include "stdafx.h"
+#include <stdio.h>
 
-int _tmain(int argc, TCHAR* argv[])
+int _tmain(int argc, char* argv[])
 {
 	return 0;
 }
