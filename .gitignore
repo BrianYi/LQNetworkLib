@@ -36,7 +36,6 @@ qrc_*.cpp
 *.so.*
 *.so
 ui_*.h
-*~
 .qmake.cache
 *.vcproj.*.user
 *.vcxproj.user
