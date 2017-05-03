@@ -39,6 +39,9 @@ typedef UInt16				Bool16;
 
 #define LQ_DECL_EXPORT  __declspec(dllexport)
 #define LQ_DECL_IMPORT  __declspec(dllimport)
+#define LQ_USE_NAMESPACE_NETWORK    using namespace LQ_NETWORK;
+#define LQ_BEGIN_NAMESPACE_NETWORK  namespace LQ_NETWORK {
+#define LQ_END_NAMESPACE_NETWORK    }
 
 
 typedef string IP;

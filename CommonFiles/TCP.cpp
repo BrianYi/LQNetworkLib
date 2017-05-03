@@ -1,5 +1,7 @@
 #include "TCP.h"
 
+LQ_BEGIN_NAMESPACE_NETWORK
+
 TCP::TCP():CommonSocket(SOCK_STREAM, IPPROTO_TCP)
 {
 
@@ -142,3 +144,4 @@ UInt16 TCP::getPort( void )
 	return m_address.getPort();
 }
 
+LQ_END_NAMESPACE_NETWORK

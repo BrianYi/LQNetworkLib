@@ -8,6 +8,8 @@
 #pragma once
 #include "CommonSocket.h"
 
+LQ_BEGIN_NAMESPACE_NETWORK
+
 class LQ_DECL_EXPORT UDP :
     public CommonSocket
 {
@@ -23,3 +25,4 @@ public:
     SInt32 receive(char* outContent, const size_t& inSize, std::string& outIP, UInt16& outPort, IOType inIOType = Blocking);
 };
 
+LQ_END_NAMESPACE_NETWORK

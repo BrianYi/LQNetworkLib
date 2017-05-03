@@ -1,5 +1,7 @@
 #include "UDP.h"
 
+LQ_BEGIN_NAMESPACE_NETWORK
+
 UDP::UDP():CommonSocket(SOCK_DGRAM, IPPROTO_UDP)
 {
 }
@@ -124,3 +126,5 @@ SInt32 UDP::receive(char* outContent, const size_t& inSize, std::string& outIP, 
     outPort = address.getPort();
     return receivedBytes;
 }
+
+LQ_END_NAMESPACE_NETWORK

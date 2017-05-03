@@ -1,6 +1,8 @@
 #pragma once
 #include "common.h"
 
+
+LQ_BEGIN_NAMESPACE_NETWORK
 //#define DEBUG_LQMutexLocker
 
 /*!
@@ -29,3 +31,4 @@ private:
 	DWORD m_holder;
 };
 
+LQ_END_NAMESPACE_NETWORK

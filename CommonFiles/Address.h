@@ -2,6 +2,8 @@
 #include "common.h"
 #include <string>
 
+LQ_BEGIN_NAMESPACE_NETWORK
+
 class LQ_DECL_EXPORT Address : public sockaddr_in
 {
 public:
@@ -18,3 +20,4 @@ private:
     void _address(const std::string& inIP, const UInt16& inPort);
 };
 
+LQ_END_NAMESPACE_NETWORK

@@ -8,6 +8,8 @@
 #pragma once
 #include "CommonSocket.h"
 
+LQ_BEGIN_NAMESPACE_NETWORK
+
 class LQ_DECL_EXPORT TCP :
 	public CommonSocket
 {
@@ -27,3 +29,5 @@ public:
 protected:
 	Address m_address;
 };
+
+LQ_END_NAMESPACE_NETWORK

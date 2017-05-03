@@ -1,5 +1,7 @@
 #include "CommonSocket.h"
 
+LQ_BEGIN_NAMESPACE_NETWORK
+
 UInt32 CommonSocket::s_num_sockets = 0;
 
 // CommonSocket::CommonSocket()
@@ -183,3 +185,5 @@ void CommonSocket::set_socket_rcvbuf_size(UInt32 inNewSize)
     }
     return;
 }
+
+LQ_END_NAMESPACE_NETWORK

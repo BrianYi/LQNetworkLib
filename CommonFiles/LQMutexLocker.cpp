@@ -1,5 +1,6 @@
 #include "LQMutexLocker.h"
 
+LQ_BEGIN_NAMESPACE_NETWORK
 
 LQMutexLocker::LQMutexLocker()
 {
@@ -94,3 +95,5 @@ void LQMutexLocker::RecursiveUnlock()
 		::LeaveCriticalSection(&m_mutex);
 	}
 }
+
+LQ_END_NAMESPACE_NETWORK

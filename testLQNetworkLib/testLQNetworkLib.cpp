@@ -4,6 +4,7 @@
 #include <stdio.h>
 #include "TCP.h"
 
+LQ_USE_NAMESPACE_NETWORK
 
 int main()
 {

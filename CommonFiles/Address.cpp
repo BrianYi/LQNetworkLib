@@ -1,6 +1,6 @@
 #include "Address.h"
 
-
+LQ_BEGIN_NAMESPACE_NETWORK
 
 Address::Address()
 {
@@ -61,3 +61,5 @@ void Address::_address(const std::string& inIP, const UInt16& inPort)
     this->setIP(inIP);
     this->setPort(inPort);
 }
+
+LQ_END_NAMESPACE_NETWORK

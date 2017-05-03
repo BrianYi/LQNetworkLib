@@ -9,6 +9,8 @@
 #include "common.h"
 #include "Address.h"
 
+LQ_BEGIN_NAMESPACE_NETWORK
+
 class LQ_DECL_EXPORT CommonSocket
 {
 public:
@@ -36,3 +38,4 @@ private:
     static UInt32 s_num_sockets;
 };
 
+LQ_END_NAMESPACE_NETWORK
